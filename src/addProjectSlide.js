@@ -53,5 +53,5 @@ function addProjectSlide () {
     });
 }
 
-export {addProjectSlide};
+export {addProjectSlide, projects};
 // const list = document.createElement("li");
