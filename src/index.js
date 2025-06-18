@@ -1,12 +1,13 @@
 import "./styles.css";
 import { AddDialogBox } from "./btnCreateTask";
+import { addProjectSlide } from "./addProjectSlide";
 
-const btn = document.createElement("button");
-btn.setAttribute("id", "addTask");
-btn.textContent = "Add New Task";
-btn.addEventListener("click", ()=> {
-    AddDialogBox();
+const addProjectBtn = document.querySelector("#btn-project-add");
+addProjectBtn.addEventListener("click", () => {
+    addProjectSlide();
 });
 
-const body = document.querySelector("body");
-body.append(btn);
+const addTaskBtn = document.querySelector("#addTask");
+addTaskBtn.addEventListener("click", ()=> {
+    AddDialogBox();
+});
