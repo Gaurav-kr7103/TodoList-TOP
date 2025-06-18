@@ -1,7 +1,7 @@
 {
   "name": "webpack-template",
   "version": "1.0.0",
-  "description": "a blueprint of the configuration of weback to minimize time to effectively jump in the code",
+  "description": "a blueprint of the configuration of webpack to minimize time to effectively jump in the code",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
